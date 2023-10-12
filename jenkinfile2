@@ -2,8 +2,12 @@ pipeline {
   agent any
       stages {
             stage ('msg from morning') 
+            {
                 steps { echo 'Radhe Radhe' }
+     }
              stage  (' msg from radha')
+   {
                 steps { echo 'Krishna Krishna'}
             }
+}
 }
